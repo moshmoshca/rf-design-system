@@ -38,14 +38,20 @@ header .container {
 #color .container {
     display: flex;
     justify-content: center;
+
+    margin: 100px 0;
 }
 
 .color-container  {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid red;
     width: 650px;
+    margin-right: 60px;
+}
+
+.color-container h2 {
+    margin-bottom: 20px;
 }
 
 .color-container .main-colors {
@@ -55,16 +61,60 @@ header .container {
     margin-bottom: 60px;
 }
 
+/*-------------- Colors hue -----------*/
+
+.color-container .hue-container {
+    text-align: center;
+}
 
 .color-container .hue-container .hue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     color: #fff;
     width: 134px;
     height: 134px;
     border-radius: 16px;
 
-    text-align: center;
-
     background-color: #252525;
+}
+
+.color-container .hue.orange {
+    background-color: #D77B24;
+}
+
+.color-container .hue.black {
+    background-color: #252525;
+}
+
+.color-container .hue.yellow {
+    background-color: #E7B969;
+}
+
+.color-container .hue.deep-blue {
+    background-color: #004A60;
+}
+
+.color-container .hue.turquoise {
+    background-color: #17A096;
+}
+
+.color-container .hue.pink-sherbet {
+    background-color: #E38C85;
+}
+
+.color-container .hue.deep-red {
+    background-color: #B22132;
+}
+
+/* ------------ END of color Hue ------------------- */
+
+.hue-container p {
+    margin-top: 14px;
+
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .color-container .complementary-colors {
@@ -76,7 +126,7 @@ header .container {
 
 /* paragraph color */
 
-.color-p {
+.paragraph {
     width: 300px;
     padding: 40px 35px;
     border-radius: 16px;
@@ -84,4 +134,12 @@ header .container {
     background-color: #F5F5F4;
 
     font-size: 16px;
+    line-height: 1.8em;
 }
+
+
+.color-p p {
+    margin-bottom: 12px;
+}
+
+/* ------------ FONTS Section ------------------- */
