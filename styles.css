@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------- Heading ----------------- */
+
+header .container {
+    background-color: #252525;
+    text-align: center;
+    padding: 30px;
+}
+
+.heading {
+    font-family: rift-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    letter-spacing: 3px;
+    line-height: 1em;
+
+    color: #E7B969;
+
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+}
+
+/* --------------- Color section ----------------- */
+
+#color .container {
+    display: flex;
+    justify-content: center;
+}
+
+.color-container  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: 650px;
+}
+
+.color-container .main-colors {
+    display: flex;
+    gap: 1.8em;
+    
+    margin-bottom: 60px;
+}
+
+
+.color-container .hue-container .hue {
+    color: #fff;
+    width: 134px;
+    height: 134px;
+    border-radius: 16px;
+
+    text-align: center;
+
+    background-color: #252525;
+}
+
+.color-container .complementary-colors {
+    display: flex;
+    gap: 1.8em;
+}
+
+
+
+/* paragraph color */
+
+.color-p {
+    width: 300px;
+    padding: 40px 35px;
+    border-radius: 16px;
+
+    background-color: #F5F5F4;
+
+    font-size: 16px;
+}
