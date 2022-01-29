@@ -142,7 +142,11 @@ header .container {
 
 #font .container {
     background-color: #F5F5F4;
-    padding: 100px 0;
+}
+
+.font-choices {
+    padding: 100px;
+    padding-bottom: 150px;
 }
 
 .font-choices h1 {
@@ -159,7 +163,7 @@ header .container {
 }
 
 .font-choices .font-header {
-    width: 810px;
+    width: 865px;
     margin: 0 auto;
 }
 
@@ -167,5 +171,70 @@ header .container {
     display: flex;
     justify-content: center;
     gap: 6em;
+    align-content: center;
 }
 
+.font-choices .font-header h1 {
+    margin-bottom: 40px;
+}
+
+.font-container h2 {
+    margin-bottom: 20px;
+}
+
+/* --------------- Format paragraph text ---------------- */
+/* ----------------------- Poppins ---------------------- */
+
+.font-container .poppins-font h2 {
+    font-size: 30px;
+}
+
+.font-container .poppins-font p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.font-container .poppins-font .poppins-light {
+    font-weight: 300;
+}
+
+.font-container .poppins-font .poppins-reg {
+    font-weight: 400;
+}
+
+.font-container .poppins-font .poppins-medium-it {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-container .poppins-font .poppins-bold {
+    font-weight: 700;
+}
+
+/* --------------- Format paragraph text ---------------- */
+/* ----------------------- RiftSoft ---------------------- */
+
+.font-container .rift-font h2 {
+    font-family: rift-soft, sans-serif;
+    font-size: 36px;
+    margin-bottom: 18px;
+
+}
+
+.font-container .rift-font p {
+    font-family: rift-soft, sans-serif;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.font-container .rift-font .rift-light {
+    font-weight: 300;
+}
+
+.font-container .rift-font .rift-bold {
+    font-weight: 700;
+}
+
+.font-container .rift-font .rift-medium {
+    font-weight: 500;
+}
