@@ -145,18 +145,22 @@ header .container {
     padding: 100px 0;
 }
 
-#font .font-choices {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  
-}
-
 .font-choices h1 {
     font-family: rift-soft, sans-serif;
     font-size: 70px;
     color: #D77B24;
-    
+}
+
+.font-choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.font-choices .font-header {
+    width: 810px;
+    margin: 0 auto;
 }
 
 .font-choices .font-container {
