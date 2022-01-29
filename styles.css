@@ -21,8 +21,6 @@ header .container {
     line-height: 1em;
 
     color: #E7B969;
-
-    margin-bottom: 0px;
 }
 
 .subtitle {
@@ -122,8 +120,6 @@ header .container {
     gap: 1.8em;
 }
 
-
-
 /* paragraph color */
 
 .paragraph {
@@ -143,3 +139,29 @@ header .container {
 }
 
 /* ------------ FONTS Section ------------------- */
+
+#font .container {
+    background-color: #F5F5F4;
+    padding: 100px 0;
+}
+
+#font .font-choices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.font-choices h1 {
+    font-family: rift-soft, sans-serif;
+    font-size: 70px;
+    color: #D77B24;
+    
+}
+
+.font-choices .font-container {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+}
+
