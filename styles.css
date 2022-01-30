@@ -238,3 +238,83 @@ header .container {
 .font-container .rift-font .rift-medium {
     font-weight: 500;
 }
+
+
+/* --------------- Text Styles Section ---------------- */
+
+#text-styles .container {
+    background-color: #252525;
+    width: 900px;
+    border-radius: 60px;
+
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.text-container {
+    padding: 90px;
+}
+
+.text-container h1 {
+    font-family: rift-soft, sans-serif;
+    font-size: 65px;
+    color: #E7B969;
+    letter-spacing: 2px;
+
+    margin-bottom: 30px;
+}
+
+.text-body-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-smaller-cont {
+    display: flex;
+    gap: 7em;
+}
+
+.main-text {
+    margin-bottom: 30px;
+}
+
+.main-text h2 {
+    font-family: rift-soft, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.text-container ul li {
+    color:#fff;
+    list-style: none;
+}
+
+.text-smaller-cont h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sub-text h3 {
+    font-size: 30px;
+}
+
+.paragraph-text {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+    justify-content: flex-end;
+}
+
+.paragraph-text h3 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* -------------- Footer ------------------ */
+
+.footer {
+    background-color: #E38C85;
+    padding: 30px;
+    text-align: center;
+}
