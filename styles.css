@@ -198,7 +198,6 @@ header .container {
     margin-bottom: 20px;
 }
 
-/* --------------- Format paragraph text ---------------- */
 /* ----------------------- Poppins ---------------------- */
 
 .font-container .poppins-font h2 {
@@ -227,7 +226,6 @@ header .container {
     font-weight: 700;
 }
 
-/* --------------- Format paragraph text ---------------- */
 /* ----------------------- RiftSoft ---------------------- */
 
 .font-container .rift-font h2 {
@@ -305,6 +303,8 @@ header .container {
 .text-container ul li {
     color:#fff;
     list-style: none;
+
+    line-height: 1.5rem;
 }
 
 .text-smaller-cont h3 {
@@ -314,13 +314,6 @@ header .container {
 
 .sub-text h3 {
     font-size: 30px;
-}
-
-.paragraph-text {
-    display: flex;
-    flex-direction: column;
-    align-content:flex-start;
-    justify-content: flex-end;
 }
 
 .paragraph-text h3 {
@@ -341,6 +334,105 @@ header .container {
 /*------------------- Media Queries -------------------*/
 /* -------------------------------------------------- */
 
+@media only screen and (max-width: 480px) {
 
+    /* ----------------- Header ------------- */
+
+    header .container {
+        padding: 10%;
+        margin-bottom: 10%;
+    }
+
+    .heading {
+        font-size: 4.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    /* ------------ Color Section ----------- */
+
+    #color {
+        width: 100%;
+    }
+    
+    .color-title {
+        font-size: 0.9rem;
+    }
+
+    .color-title h2 {
+        margin-bottom: 10%;
+    }
+
+
+    #color .container {
+        flex-direction: column;
+        gap: 2.8em;
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .color-container {
+        width: 100%;
+    }
+
+    .color-container .main-colors,
+    .color-container .complementary-colors {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .color-container .hue-container .hue {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .hue-container p {
+        margin-top: 8px;
+    }
+
+    .paragraph {
+        width: 80%;
+    }
+
+    /* ------------ Font Section ----------- */
+
+    .font-choices {
+        padding: 15% 5%;
+    }
+
+    .font-choices .font-container {
+        flex-direction: column;
+        gap: 3em;
+
+    }
+
+    /* ------------ Text Styles ----------- */
+    #text-styles .container {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .text-container {
+        padding: 15% 5%;
+    }
+
+    .text-container h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .main-text h2 {
+        font-size: 3rem;
+    }
+
+    .text-smaller-cont {
+        flex-direction: column;
+        gap: 1.8em;
+    }
+}
 
 
