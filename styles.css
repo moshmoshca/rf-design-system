@@ -332,7 +332,7 @@ header .container {
 
 
 /*------------------- Media Queries -------------------*/
-/* -------------------------------------------------- */
+/* ------------------ Small devices ------------------ */
 
 @media only screen and (max-width: 480px) {
 
@@ -436,3 +436,63 @@ header .container {
 }
 
 
+/*------------------- Media Queries -------------------*/
+/* -------------- Medium size devices ---------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+
+    /*-------------- Color section -------------------*/
+
+    #color .container {
+        flex-direction: column;
+    }
+
+    .color-container {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 89%;
+    }
+
+    /*-------------- Font section -------------------*/
+
+    #font {
+        width: 100%;
+    
+    }
+
+    .font-choices {
+        width: 100%;
+        padding: 10% 10%;
+    }
+
+    .font-choices .font-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    /*-------------- Font section -------------------*/
+
+    #text-styles {
+        width: 100%;
+    }
+
+    #text-styles .container {
+        width: 80%;
+    }
+
+    .text-container {
+        padding: 10% 10%;
+    }
+
+    .text-container h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    
+    .text-smaller-cont {
+        flex-direction: column;
+        gap: 1.8em;
+    }
+}
